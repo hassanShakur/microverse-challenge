@@ -8,3 +8,21 @@
 main{
   text-align:center;
 }
+
+.biography {
+    padding: 2rem 10vmin;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.biography > h3 {
+    text-align: center;
+}
+
+.year {
+    font-weight: bold;
+}
+
+ul li {
+    padding: 1.4vmin 0;
+}
