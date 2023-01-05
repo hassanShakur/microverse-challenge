@@ -3,16 +3,20 @@
   height: auto;
   display: block;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 main{
   text-align:center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eee;
 }
 
 .biography {
     padding: 2rem 10vmin;
     text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    margin: auto;
 }
 
 .biography > h3 {
@@ -25,4 +29,18 @@ main{
 
 ul li {
     padding: 1.4vmin 0;
+}
+
+#quote{
+  font-style: italic;
+}
+
+#title{
+  font-size: 45px;
+}
+
+#img-div{
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: white;
 }
